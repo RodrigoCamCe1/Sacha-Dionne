@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sacha Dionne - Análisis Facial</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Sacha Dionne Cosméticos Naturales</h1>
+        </header>
+        <section class="analyzer">
+            <button id="startBtn">Iniciar Análisis</button>
+            <video id="camera" autoplay></video>
+            <div id="analysisResult" class="result">
+                <p><strong>Tipo de piel:</strong> <span id="skinType">Esperando...</span></p>
+                <p><strong>Hidratación:</strong> <span id="hydration">0%</span></p>
+                <p><strong>Textura:</strong> <span id="texture">0%</span></p>
+                <p><strong>Luminosidad:</strong> <span id="luminosity">0%</span></p>
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
