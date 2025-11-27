@@ -10,18 +10,19 @@
 <body>
     <div class="container">
         <header>
-            <h1>Sacha Dionne Cosméticos Naturales</h1>
+            <!-- Logo de Sacha Dionne -->
+            <img src="images/sacha_dionne_logo_updated.png" alt="Sacha Dionne Logo" class="logo"> <!-- Logo grande -->
         </header>
-        <h2>Nos preocupamos por tu piel</h2>
+        <h2 class="subtitle">Nos preocupamos por tu piel</h2> <!-- Texto debajo del logo -->
         <section class="analyzer">
             <button id="startBtn">Iniciar Análisis</button>
             <video id="camera" autoplay></video>
             <div id="analysisResult" class="result">
-                <p><strong>Tipo de piel:</strong> <span id="skinType">Esperando...</span></p>
-                <p><strong>Hidratación:</strong> <span id="hydration">0%</span></p>
-                <p><strong>Textura:</strong> <span id="texture">0%</span></p>
-                <p><strong>Luminosidad:</strong> <span id="luminosity">0%</span></p>
-            </div>
+            <p><strong>Tipo de piel:</strong> <span id="skinType">grasa</span></p>
+            <p><strong>Hidratación:</strong> <span id="hydration">22%</span></p>
+            <p><strong>Textura:</strong> <span id="texture">7%</span></p>
+            <p><strong>Luminosidad:</strong> <span id="luminosity">100%</span></p>
+        </div>
         </section>
     </div>
     <script src="script.js"></script>
